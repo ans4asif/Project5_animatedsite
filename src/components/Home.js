@@ -3,6 +3,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import home from './../images/tabs.jpg'
 import { Typography } from '@material-ui/core';
 import useWebAnimations,{rollIn, slideInDown,slideInRight} from '@wellyshen/use-web-animations';
+import ContactUs from './ContactUs';
+import About from './About';
 const useStyles = makeStyles((theme) => ({
   container: {
     background:'#acc7f2',
@@ -86,5 +88,6 @@ timing:{
         We Build.We Secure.We Automate
     </Typography>
          </div>
+          
   );
 }

@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/Header'
 import About from './components/About';
 import ContactUs from './components/ContactUs';
-// import { Routes,Route } from 'react-router-dom';
+import { Routes,Route } from 'react-router-dom';
 // import ScrollToTop from './components/ScrollToTop';
 
 
@@ -15,8 +15,8 @@ function App() {
     <Home/>
     <About/>
     <ContactUs/>
-    {/* <Header/>
-      
+
+      {/* <Header/>
       <Routes> 
         <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
